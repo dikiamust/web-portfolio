@@ -18,7 +18,7 @@ nav div.container-fluid {
 }
 
 nav div.container-fluid div.collapse.navbar-collapse {
-  background-color: goldenrod;
+  background-color: grey;
   margin-left: 0 auto !important;
 }
 

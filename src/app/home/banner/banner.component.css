@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
-div.container.banner {
+/* div.container.banner {
   background-color: yellow;
+} */
+
+div.container div.row div.col-12.col-md-6.foto {
+  margin-top: 100px;
 }
 
-div.container.banner h1 {
+div.container div.row div.col-12.col-md-6.text {
   margin-top: 100px;
+  /* color: blue; */
+}
+
+div.container.banner .text h1 {
+  margin-top: 100px;
+  /* color: blue; */
 }
 
 div.container.banner small {
@@ -13,7 +23,7 @@ div.container.banner small {
   color: aqua;
 }
 
-div.container.banner h1 span {
+div.container.banner .text h1 span {
   color: grey;
   /* border-bottom: 2px solid grey;
   padding-bottom: 6px; */
@@ -23,4 +33,12 @@ div.container.banner h1 span:hover {
   color: black;
   border-bottom: 2px solid black;
   padding-bottom: 6px;
+}
+
+div.container.expertise h3 {
+  justify-content: center;
+  margin: 0 auto;
+  color: aqua;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
