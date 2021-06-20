@@ -1,44 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
-/* div.container.banner {
-  background-color: yellow;
+/* div.container div.row div.col-12.col-md-6 {
+  margin-top: 100px;
 } */
 
-div.container div.row div.col-12.col-md-6.foto {
+div.container.banner {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-div.container div.row div.col-12.col-md-6.text {
-  margin-top: 100px;
-  /* color: blue; */
+div.container div.row div.col-12.col-md-6 div.wrapper {
+  align-items: center;
 }
 
-div.container.banner .text h1 {
-  margin-top: 100px;
-  /* color: blue; */
+div.row .wrapper div.col a {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
 }
 
-div.container.banner small {
-  margin-top: 100px;
-  color: aqua;
+div.row .wrapper div.col a:hover {
+  background-color: silver;
 }
 
-div.container.banner .text h1 span {
+div.container div.row div.col-12.col-md-6 img {
+  /* display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; */
+  margin: 0 auto;
+}
+
+div.col-12.col-md-6 small {
+  color: black;
+}
+
+div.col-12.col-md-6 h2 {
+  margin-top: 100px;
+  color: black;
+}
+
+div.col-12.col-md-6 h2 span {
   color: grey;
-  /* border-bottom: 2px solid grey;
-  padding-bottom: 6px; */
 }
 
-div.container.banner h1 span:hover {
+div.col-12.col-md-6 h1 {
+  color: grey;
+}
+
+div.col-12.col-md-6 h1:hover {
   color: black;
   border-bottom: 2px solid black;
   padding-bottom: 6px;
 }
 
+div.container.expertise {
+  margin-top: 100px;
+}
+
 div.container.expertise h3 {
-  justify-content: center;
-  margin: 0 auto;
-  color: aqua;
+  text-align: center;
+  color: black;
+  font-size: 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
