@@ -8,6 +8,7 @@ import { NavigationComponent } from '../shared/navigation/navigation.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from '../shared/footer/footer.component';
 import { ProjectComponent } from './project/project.component';
+import { TrialComponent } from './trial/trial.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ProjectComponent } from './project/project.component';
     BannerComponent,
     FooterComponent,
     ProjectComponent,
+    TrialComponent,
   ],
   imports: [CommonModule, HomeRoutingModule],
 })

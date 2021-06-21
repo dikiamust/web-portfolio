@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #f8f9fa;
+  /* background-color: gray; */
+  min-height: 100vh;
+}
+
+div.card-group {
+  max-width: 1300px;
+}
+
+div.card {
+  border: none !important;
+  box-shadow: 1px 1px 10px #8f8b8b3d;
+  border-radius: 15px;
+  /* background-color: grey; */
+}
+div.card:hover {
+  box-shadow: 1px 1px 18px #6b6b6b98;
+  transition: all 0.2s !important;
+}
+
+h5.card-title {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+div.card-group .div.card {
+  margin: 10px !important;
+  background-color: brown;
+}
+
+/* div.container.expertise h3 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+div.card.expertise {
+  border: none !important;
+  box-shadow: 1px 1px 5px #8f8b8b3d;
+}
+div.card.expertise:hover {
+  box-shadow: 1px 1px 8px #6b6b6b98;
+  transition: all 0.2s !important;
+}
+
+div.card.expertise div.card-body h4 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 3px;
+} */
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    min-height: 50vh;
+  }
+}
