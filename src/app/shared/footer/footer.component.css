@@ -1,12 +1,6 @@
-div.footer {
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  padding: 2rem 0;
-}
-
-.footer__title {
-  font-size: 2rem;
-  margin-bottom: 20px;
+.footer-part {
+  margin-top: -30px;
+  background-color: black !important;
+  color: white !important;
+  padding-top: 30px;
 }

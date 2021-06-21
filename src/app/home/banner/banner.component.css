@@ -78,47 +78,13 @@ div.col-12.col-md-6 button:hover {
   color: black;
 }
 
-/* expertise */
-div.container.expertise {
-  background-color: #f8f9fa;
-  margin-top: 100px;
-}
-
-div.container.expertise h3 {
+/* about me */
+div.container div.row div.col-12 h3 {
+  margin-top: 200px;
   text-align: center;
-  color: black;
-  font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  font-size: 36px;
 }
 
-div.card.expertise {
-  border: none !important;
-  box-shadow: 1px 1px 5px #8f8b8b3d;
-}
-div.card.expertise:hover {
-  box-shadow: 1px 1px 8px #6b6b6b98;
-  transition: all 0.2s !important;
-}
-
-div.card.expertise div.card-body h4 {
+div.container div.row div.col-12 p {
   text-align: center;
-  background-color: black;
-  color: white;
-  box-sizing: border-box;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-/* project */
-div.container.project {
-  margin-top: 100px;
-}
-
-div.container.project h3 {
-  text-align: center;
-  color: black;
-  font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 40px;
 }

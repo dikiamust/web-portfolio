@@ -45,32 +45,6 @@ div.card-group .div.card {
   background-color: brown;
 }
 
-/* div.container.expertise h3 {
-  text-align: center;
-  color: black;
-  font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-div.card.expertise {
-  border: none !important;
-  box-shadow: 1px 1px 5px #8f8b8b3d;
-}
-div.card.expertise:hover {
-  box-shadow: 1px 1px 8px #6b6b6b98;
-  transition: all 0.2s !important;
-}
-
-div.card.expertise div.card-body h4 {
-  text-align: center;
-  background-color: black;
-  color: white;
-  box-sizing: border-box;
-  padding: 5px;
-  border-radius: 3px;
-} */
-
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   body {
