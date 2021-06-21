@@ -7,6 +7,7 @@ import { AngularComponent } from './angular/angular.component';
 import { NavigationComponent } from '../shared/navigation/navigation.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from '../shared/footer/footer.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FooterComponent } from '../shared/footer/footer.component';
     NavigationComponent,
     BannerComponent,
     FooterComponent,
+    ProjectComponent,
   ],
   imports: [CommonModule, HomeRoutingModule],
 })

@@ -24,16 +24,19 @@ div.row .wrapper div.col a {
   width: 40px;
   height: 40px;
   text-decoration: none;
+  font-size: 26px;
 }
 
 div.row .wrapper div.col a:hover {
   background-color: silver;
 }
 
-div.container div.row div.col-12.col-md-6 img {
+div.col-12.col-md-6 div.row.wrapper img {
   /* display: flex !important;
   justify-content: center !important;
   align-items: center !important; */
+  box-sizing: border-box;
+  padding-left: -50px !important;
   margin: 0 auto;
 }
 
@@ -60,14 +63,62 @@ div.col-12.col-md-6 h1:hover {
   padding-bottom: 6px;
 }
 
+div.col-12.col-md-6 button {
+  margin-top: 35px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(to top, white 50%, black 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+
+div.col-12.col-md-6 button:hover {
+  background-position: left bottom;
+  color: black;
+}
+
+/* expertise */
 div.container.expertise {
+  background-color: #f8f9fa;
   margin-top: 100px;
 }
 
 div.container.expertise h3 {
   text-align: center;
   color: black;
-  font-size: 50px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+div.card.expertise {
+  border: none !important;
+  box-shadow: 1px 1px 5px #8f8b8b3d;
+}
+div.card.expertise:hover {
+  box-shadow: 1px 1px 8px #6b6b6b98;
+  transition: all 0.2s !important;
+}
+
+div.card.expertise div.card-body h4 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* project */
+div.container.project {
+  margin-top: 100px;
+}
+
+div.container.project h3 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
