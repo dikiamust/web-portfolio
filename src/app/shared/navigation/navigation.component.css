@@ -18,29 +18,14 @@ nav div.container-fluid {
 }
 
 nav div.container-fluid div.collapse.navbar-collapse {
-  text-align: center;
-  background-color: black;
-  color: white;
-
-  margin-left: 0 auto !important;
+  color: black;
 }
 
 nav div.container-fluid div.collapse.navbar-collapse div.navbar-nav.ml-auto a {
-  text-align: end !important;
-  color: white;
+  color: black;
 }
 
-nav
-  div.container-fluid
-  div.collapse.navbar-collapse
-  div.navbar-nav.ml-auto
-  a
-  :hover {
-  text-align: end !important;
-  color: yellow;
-}
 
 nav div.container-fluid button.navbar-toggler {
-  /* background-color: yellow; */
   border: none;
 }
