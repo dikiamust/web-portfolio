@@ -1,156 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
-
-/* div.container div.row div.col-12.col-md-6 {
-  margin-top: 100px;
-} */
-
-div.container.banner {
-  margin-top: 100px;
-  margin-bottom: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-div.container div.row div.col-12.col-md-6 div.wrapper {
-  align-items: center;
-}
-
-div.row .wrapper div.col a {
-  margin-top: 16px;
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  margin-right: 8px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  text-decoration: none;
-  font-size: 26px;
+  flex-wrap: wrap;
+  background: #f8f9fa;
+  min-height: 120vh;
 }
 
-div.row .wrapper div.col a:hover {
-  background-color: silver;
+div.card-group {
+  max-width: 1300px;
 }
 
-.social{
-  width: 45px;
-  margin-left:-20px;
+div.card {
+  border: none !important;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
 }
 
-.social ul li {
-  list-style: none !important;
+div.card:hover {
+  box-shadow: 1px 1px 18px #6b6b6b98;
+  transition: all 0.2s !important;
 }
 
-.social ul li a {
-  margin-top: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  margin-right: 8px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  text-decoration: none;
-  font-size: 23px;
-}
-
-.social ul li a:hover {
-  background-color: silver;
-}
-
-div.col-12.col-md-6 div.row.wrapper img {
-  /* box-sizing: border-box; */
-  /* padding-left: -50px !important; */
-  width: 250px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-div.col-12.col-md-6 small {
+h5.card-title {
+  text-align: center;
   color: black;
-}
-
-div.col-12.col-md-6 h2 {
-  margin-top: 100px;
-  color: black;
-}
-
-div.col-12.col-md-6 h2 span {
-  color: grey;
-}
-
-div.col-12.col-md-6 h1 {
-  color: grey;
-}
-
-div.col-12.col-md-6 h1:hover {
-  color: black;
-  border-bottom: 2px solid black;
-  padding-bottom: 6px;
-  max-width: 370px;
-}
-
-div.col-12.col-md-6 button {
-  margin-top: 35px;
-  border: 2px solid black;
-  font-size: 20px;
   font-weight: bold;
-  background: linear-gradient(to top, white 50%, black 50%);
-  background-size: 100% 200%;
-  transition: all 0.8s;
 }
 
-div.col-12.col-md-6 button:hover {
-  background-position: left bottom;
-  color: black;
-}
-
-/* about me */
-div.container div.row div.col-12 h3 {
-  margin-top: 100px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-size: 36px;
-}
-
-div.container div.row div.col-12 p {
-  text-align: center;
+div.card-group .div.card {
+  margin: 10px !important;
+  background-color: brown;
 }
 
 /*  Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) {} */
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { ... } */
-
-/*  Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  div.container div.row div.col-12 h3{
-    margin-top: 200px;
+@media (min-width: 576px) {
+  body {
+    min-height: 50vh;
   }
-
-  div.container.banner{
-    margin-bottom: 170px;
-  }
-
-  div.col-12.col-md-6 h1:hover {
-    max-width: 370px;
-  }
-
-  div.col-12.col-md-6 div.row.wrapper img {
-    width: 310px;
-  }
-
-  .social{
-    /* width: 45px; */
-    margin-left:0px;
-  }
-
- 
- }
-
-/* X-Large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-/* @media (min-width: 1400px) { ... } */
+}
