@@ -1,9 +1,13 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
+/* div.container div.row div.col-12.col-md-6 {
+  margin-top: 100px;
+} */
 
 div.container.banner {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 div.container div.row div.col-12.col-md-6 div.wrapper {
@@ -55,6 +59,9 @@ div.row .wrapper div.col a:hover {
 }
 
 div.col-12.col-md-6 div.row.wrapper img {
+  /* display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; */
   box-sizing: border-box;
   padding-left: -50px !important;
   margin: 0 auto;
@@ -81,7 +88,7 @@ div.col-12.col-md-6 h1:hover {
   color: black;
   border-bottom: 2px solid black;
   padding-bottom: 6px;
-  max-width: 280px;
+  max-width: 370px;
 }
 
 div.col-12.col-md-6 button {
@@ -101,10 +108,9 @@ div.col-12.col-md-6 button:hover {
 
 /* about me */
 div.container div.row div.col-12 h3 {
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 200px;
   text-align: center;
-  font-size: 35px;
+  font-size: 36px;
 }
 
 div.container div.row div.col-12 p {
