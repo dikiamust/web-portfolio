@@ -12,7 +12,7 @@ section h3 {
   font-size: 36px;
 }
 
-.row {
+section div.row {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -21,7 +21,7 @@ section h3 {
   margin: 0 auto;
 }
 
-.box {
+section div.row div.box {
   display: flex;
   flex-direction: column;
   width: 310px;
@@ -37,27 +37,50 @@ section h3 {
   transition: all 0.8s;
 }
 
-.box:hover {
+section div.row div.box:hover {
   background-position: left bottom;
   color: white;
   border: none;
   box-shadow: 0 0 20px #161623;
 }
 
-.box img {
+section div.row div.box img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 section div.row div.box a {
+  margin-top: 20px;
   padding: 10px;
   padding-right: 50px;
   padding-left: 50px;
   background-color: black !important;
 }
 
-section div.row div.box button:hover {
-  visibility: initial;
+section div.row div.box a:hover {
+  color: black !important;
+  background-color: white !important;
 }
+
+/*  Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {} */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  section h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */

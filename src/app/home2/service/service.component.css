@@ -10,7 +10,7 @@ section h3 {
   font-size: 36px;
 }
 
-.row {
+section div.row {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -19,7 +19,7 @@ section h3 {
   margin: 0 auto;
 }
 
-.box {
+section div.row div.box {
   display: flex;
   flex-direction: column;
   max-width: 310px;
@@ -31,19 +31,32 @@ section h3 {
   border-radius: 15px;
 }
 
-.box:hover {
+section div.row div.box:hover {
   background-position: left bottom;
   box-shadow: 1px 1px 18px #6b6b6b98;
   transition: all 0.2s !important;
 }
 
-.box img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-section div.row div.box h2 {
+section div.row div.box h4 {
   border-bottom: 1px solid black;
 }
+
+/*  Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {} */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
