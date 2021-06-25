@@ -41,6 +41,10 @@ section div.row div.box h4 {
   border-bottom: 1px solid black;
 }
 
+section div.row div.box p {
+  text-align: center;
+}
+
 /*  Small devices (landscape phones, 576px and up) */
 /* @media (min-width: 576px) {} */
 
