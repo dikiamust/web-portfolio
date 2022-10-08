@@ -2,3 +2,6 @@ tech :
 https://getbootstrap.com/docs/5.0/components/navbar/
 
 ref : https://webflow.com/templates/html/nero-portfolio-website-template
+
+node : 14.20
+angular: 11.2.14
